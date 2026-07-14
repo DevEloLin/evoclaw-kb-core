@@ -1,5 +1,7 @@
 # evoclaw-kb-core
 
+English · [中文](README.zh.md)
+
 Source-agnostic **BM25 knowledge-base engine** for the EvoClaw ecosystem. This
 is a library crate — you don't install or run it directly; it's a dependency of
 the knowledge-base MCP server
