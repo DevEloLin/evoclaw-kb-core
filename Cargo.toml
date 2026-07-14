@@ -1,0 +1,20 @@
+[package]
+name = "evoclaw-kb-core"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.80"
+description = "Source-agnostic BM25 knowledge-base engine (tantivy + jieba) shared by EvoClaw KB MCP servers"
+license = "MIT"
+repository = "https://github.com/DevEloLin/evoclaw-kb-core"
+
+[dependencies]
+tantivy = "0.26"
+tantivy-jieba = "0.20"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+eyre = "0.6"
+thiserror = "2"
+tracing = "0.1"
+
+[dev-dependencies]
+tempfile = "3"
